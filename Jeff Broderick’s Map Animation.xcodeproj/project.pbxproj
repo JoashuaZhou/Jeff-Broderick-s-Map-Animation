@@ -14,6 +14,8 @@
 		42E547501A2DA1590095995F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42E5474F1A2DA1590095995F /* Images.xcassets */; };
 		42E547531A2DA1590095995F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42E547511A2DA1590095995F /* LaunchScreen.xib */; };
 		42E5475F1A2DA1590095995F /* Jeff_Broderick_s_Map_AnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E5475E1A2DA1590095995F /* Jeff_Broderick_s_Map_AnimationTests.m */; };
+		42E5476C1A2DA1AF0095995F /* JNWSpringAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E547691A2DA1AF0095995F /* JNWSpringAnimation.m */; };
+		42E5476D1A2DA1AF0095995F /* NSValue+JNWAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E5476B1A2DA1AF0095995F /* NSValue+JNWAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		42E547581A2DA1590095995F /* Jeff Broderick’s Map AnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jeff Broderick’s Map AnimationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42E5475D1A2DA1590095995F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42E5475E1A2DA1590095995F /* Jeff_Broderick_s_Map_AnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jeff_Broderick_s_Map_AnimationTests.m; sourceTree = "<group>"; };
+		42E547681A2DA1AF0095995F /* JNWSpringAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNWSpringAnimation.h; sourceTree = "<group>"; };
+		42E547691A2DA1AF0095995F /* JNWSpringAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNWSpringAnimation.m; sourceTree = "<group>"; };
+		42E5476A1A2DA1AF0095995F /* NSValue+JNWAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSValue+JNWAdditions.h"; sourceTree = "<group>"; };
+		42E5476B1A2DA1AF0095995F /* NSValue+JNWAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSValue+JNWAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		42E547411A2DA1590095995F /* Jeff Broderick’s Map Animation */ = {
 			isa = PBXGroup;
 			children = (
+				42E5476E1A2DA1C90095995F /* Libs */,
 				42E547461A2DA1590095995F /* AppDelegate.h */,
 				42E547471A2DA1590095995F /* AppDelegate.m */,
 				42E547491A2DA1590095995F /* ViewController.h */,
@@ -117,6 +124,17 @@
 				42E5475D1A2DA1590095995F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42E5476E1A2DA1C90095995F /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				42E547681A2DA1AF0095995F /* JNWSpringAnimation.h */,
+				42E547691A2DA1AF0095995F /* JNWSpringAnimation.m */,
+				42E5476A1A2DA1AF0095995F /* NSValue+JNWAdditions.h */,
+				42E5476B1A2DA1AF0095995F /* NSValue+JNWAdditions.m */,
+			);
+			name = Libs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,7 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				42E5474B1A2DA1590095995F /* ViewController.m in Sources */,
+				42E5476C1A2DA1AF0095995F /* JNWSpringAnimation.m in Sources */,
 				42E547481A2DA1590095995F /* AppDelegate.m in Sources */,
+				42E5476D1A2DA1AF0095995F /* NSValue+JNWAdditions.m in Sources */,
 				42E547451A2DA1590095995F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
