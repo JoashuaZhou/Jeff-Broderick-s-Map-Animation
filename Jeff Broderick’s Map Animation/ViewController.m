@@ -67,10 +67,10 @@ typedef enum {
     if (!sender.selected) {
         
         /* 背景出现/消失部分 */
-        [UIView animateWithDuration:0.15 delay:0 options:UIViewAnimationOptionCurveEaseInOut | UIViewAnimationOptionBeginFromCurrentState animations:^{
+        [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseInOut | UIViewAnimationOptionBeginFromCurrentState animations:^{
             self.backgroundView.alpha = 1.0f;
         } completion:nil];
-        [UIView animateWithDuration:0.5 delay:0 options:UIViewAnimationOptionCurveEaseInOut | UIViewAnimationOptionBeginFromCurrentState animations:^{
+        [UIView animateWithDuration:0.3 delay:0 options:UIViewAnimationOptionCurveEaseInOut | UIViewAnimationOptionBeginFromCurrentState animations:^{
             self.mapView.alpha = 0;
         } completion:nil];
         
